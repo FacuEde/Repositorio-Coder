@@ -1,0 +1,123 @@
+/* Remuevo margin y padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* ENCABEZADO DEL SITIO */
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: lawngreen solid 4px;
+    background-color: forestgreen;
+    height: 80px;
+}
+
+.tituloPrincipal {
+    color: white;
+    font-size: 2.5rem;
+    margin-right: 50%;
+}
+
+.encabezado nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.encabezado nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 10%;
+    padding: 2vh;
+}
+
+/* DISEÑO DEL INDEX */
+
+.main {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+
+img {
+    width: 700px;
+}
+
+.main h2 {
+    font-size: 2rem;
+    margin: 2%;
+}
+
+.texto {
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+    padding: 2vh;
+}
+
+/* DISEÑO DE PRODUCCIÓN Y PREPARACIÓN */
+
+.main2 {
+    font-size: 1.2rem;
+    padding: 2vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    padding-top: 3vh;
+}
+
+/* DISEÑO DE CONTACTO */
+
+.formularioPadre {
+    padding: 3vh;
+    font-weight: bold;
+}
+
+.formularioPadre div {
+    padding: 1.5vh;
+}
+
+.formularioPadre button {
+    padding: 1vh;
+}
+
+/* REDES SOCIALES */
+
+.botonesRedes div {
+    display: inline-block;
+    padding: 3vh;
+}
+
+.ig img {
+    width: 80px;
+}
+
+.tw img {
+    width: 80px;
+}
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3vh;
+    color: white;
+    background-color: forestgreen;
+    border-top: 3px solid lawngreen;
+}
