@@ -34,35 +34,9 @@ body {
     font-size: 2.5rem;
 }
 
-/* ENCABEZADO DEL SITIO */
-/* .encabezado {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: lawngreen solid 4px;
+.fondoNav {
     background-color: forestgreen;
-    height: 80px;
 }
-
-.tituloPrincipal {
-    color: white;
-    font-size: 2.5rem;
-    margin-right: 50%;
-}
-
-.encabezado nav ul li {
-    display: inline-block;
-    list-style-type: none;
-    font-weight: bold;
-}
-
-.encabezado nav ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    margin-left: 10%;
-    padding: 2vh;
-} */
 
 /* DISEÑO DEL INDEX */
 
@@ -83,6 +57,7 @@ img {
 .main h2 {
     font-size: 2rem;
     margin: 2%;
+    font-weight: bold;
 }
 
 .texto {
@@ -100,10 +75,13 @@ img {
 
 h2 {
     text-align: center;
+    font-weight: bold;
 }
 
-h3 {
+.h3 {
     padding-top: 3vh;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 /* DISEÑO DE CONTACTO */
