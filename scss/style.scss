@@ -1,0 +1,15 @@
+/* Remuevo margin y padding */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonts */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+@import "_header", "_inicio", "_prodPrep", "_contacto", "_redes", "_footer",
+  "_animaciones";

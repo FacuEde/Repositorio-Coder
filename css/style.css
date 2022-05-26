@@ -1,143 +1,106 @@
+@charset "UTF-8";
 /* Remuevo margin y padding */
 * {
-    margin: 0;
-    padding: 0;
-}
+  margin: 0;
+  padding: 0; }
 
 /* Fonts */
 body {
-    font-family: 'Lato', sans-serif;
-}
+  font-family: "Lato", sans-serif; }
 
-/* NAVBAR */
-
+/* HEADER / NAVBAR */
 .altoNav {
-    height: 80px;
-    border-bottom: lawngreen solid 4px;
-}
+  height: 80px;
+  border-bottom: lawngreen solid 4px; }
 
 .colorNavbar {
-    background-color: forestgreen;
-}
+  background-color: forestgreen; }
 
 .fuenteNavbar {
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-}
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center; }
 
 .tituloNavbar {
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 2.5rem;
-}
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.5rem; }
 
 .fondoNav {
-    background-color: forestgreen;
-}
+  background-color: forestgreen; }
 
-/* DISEÑO DEL INDEX */
-
+/* INICIO */
 .main {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-}
-
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center; }
 
 img {
-    width: 700px;
-}
+  width: 700px; }
 
 .main h2 {
-    font-size: 2rem;
-    margin: 2%;
-    font-weight: bold;
-}
+  font-size: 2rem;
+  margin: 2%;
+  font-weight: bold; }
 
 .texto {
-    font-size: 1.2rem;
-    letter-spacing: 1.2px;
-    padding: 2vh;
-}
+  font-size: 1.2rem;
+  letter-spacing: 1.2px;
+  padding: 2vh; }
 
-/* DISEÑO DE PRODUCCIÓN Y PREPARACIÓN */
-
+/* PRODUCCIÓN Y PREPARACIÓN */
 .main2 {
-    font-size: 1.2rem;
-    padding: 2vh;
-}
+  font-size: 1.2rem;
+  padding: 2vh; }
 
 h2 {
-    text-align: center;
-    font-weight: bold;
-}
+  text-align: center;
+  font-weight: bold; }
 
 .h3 {
-    padding-top: 3vh;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
+  padding-top: 3vh;
+  font-size: 1.5rem;
+  font-weight: bold; }
 
-/* DISEÑO DE CONTACTO */
-
+/* CONTACTO */
 .formularioPadre {
-    padding: 3vh;
-    font-weight: bold;
-}
-
-.formularioPadre div {
-    padding: 1.5vh;
-}
-
-.formularioPadre button {
-    padding: 1vh;
-}
+  padding: 3vh;
+  font-weight: bold; }
+  .formularioPadre div {
+    padding: 1.5vh; }
+  .formularioPadre button {
+    padding: 1vh; }
 
 /* REDES SOCIALES */
-
 .botonesRedes div {
-    display: inline-block;
-    padding: 3vh;
-}
+  display: inline-block;
+  padding: 3vh; }
 
-.ig img {
-    width: 80px;
-}
-
+.ig img,
 .tw img {
-    width: 80px;
-}
-
+  width: 80px; }
 
 /* FOOTER */
 footer {
-    text-align: center;
-    text-transform: uppercase;
-    padding: 3vh;
-    color: white;
-    background-color: forestgreen;
-    border-top: 3px solid lawngreen;
-}
+  text-align: center;
+  text-transform: uppercase;
+  padding: 3vh;
+  color: white;
+  background-color: forestgreen;
+  border-top: 3px solid lawngreen; }
 
 /* ANIMACIONES */
-
 @keyframes titulos {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 100%;
-    }
-}
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%; } }
 
 h2 {
-    animation-name: titulos;
-    animation-duration: 3s;
-}
+  animation-name: titulos;
+  animation-duration: 3s; }

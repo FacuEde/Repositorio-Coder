@@ -1,0 +1,16 @@
+/* ANIMACIONES */
+
+@keyframes titulos {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+h2 {
+  animation-name: titulos;
+  animation-duration: 3s;
+}
