@@ -11,5 +11,5 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-@import "_header", "_inicio", "_prodPrep", "_contacto", "_redes", "_footer",
-  "_animaciones";
+@import "_variables", "_header", "_inicio", "_prodPrep", "_contacto", "_redes",
+  "_footer", "_animaciones";
