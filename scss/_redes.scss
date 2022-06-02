@@ -5,7 +5,12 @@
   padding: 3vh;
 }
 
-.ig img,
-.tw img {
-  width: 80px;
+/* Agrego extend para mis links a las RRSS */
+
+.imgIg {
+  width: 100px;
+}
+
+.imgTw {
+  @extend .imgIg;
 }

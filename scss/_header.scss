@@ -8,11 +8,17 @@
   background-color: $color-fondos;
 }
 
+/* Mixin con parametros */
+
+@mixin estiloFuente($color, $mayusculas, $negrita, $alineacion) {
+  color: $color;
+  text-transform: $mayusculas;
+  font-weight: $negrita;
+  text-align: $alineacion;
+}
+
 .fuenteNavbar {
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
+  @include estiloFuente(white, uppercase, bold, center);
 }
 
 .tituloNavbar {

@@ -5,9 +5,16 @@
   padding: 2vh;
 }
 
+/* Agrego mapa para el estilo de mis h2 */
+
+$estilo: (
+  text-align: center,
+  font-weight: bold,
+);
+
 h2 {
-  text-align: center;
-  font-weight: bold;
+  text-align: map-get($estilo, text-align);
+  font-weight: map-get($estilo, font-weight);
 }
 
 .h3 {

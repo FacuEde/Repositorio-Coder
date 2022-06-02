@@ -16,6 +16,7 @@ body {
 .colorNavbar {
   background-color: forestgreen; }
 
+/* Mixin con parametros */
 .fuenteNavbar {
   color: white;
   text-transform: uppercase;
@@ -41,7 +42,7 @@ body {
   text-align: center; }
 
 img {
-  width: 700px; }
+  width: 90%; }
 
 .main h2 {
   font-size: 2rem;
@@ -58,6 +59,7 @@ img {
   font-size: 1.2rem;
   padding: 2vh; }
 
+/* Agrego mapa para el estilo de mis h2 */
 h2 {
   text-align: center;
   font-weight: bold; }
@@ -81,9 +83,9 @@ h2 {
   display: inline-block;
   padding: 3vh; }
 
-.ig img,
-.tw img {
-  width: 80px; }
+/* Agrego extend para mis links a las RRSS */
+.imgIg, .imgTw {
+  width: 100px; }
 
 /* FOOTER */
 footer {
