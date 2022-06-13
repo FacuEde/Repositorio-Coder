@@ -1,11 +1,10 @@
 /* HEADER / NAVBAR */
 .altoNav {
   height: 80px;
-  border-bottom: lawngreen solid 4px;
 }
 
 .colorNavbar {
-  background-color: $color-fondos;
+  background-image: linear-gradient(to right, #dce35b, #45b649);
 }
 
 /* Mixin con parametros */
@@ -29,5 +28,5 @@
 }
 
 .fondoNav {
-  background-color: $color-fondos;
+  background-image: linear-gradient(to right, #dce35b, #45b649);
 }
